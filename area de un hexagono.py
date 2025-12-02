@@ -22,10 +22,11 @@ def imprimir_mensaje(mensaje):
     
 #***** zona codigo principal*******
 
-perimetro = capturar_base()
+perimetro = capturar_perimetro()
 apotema = capturar_apotema()
 area = hacer_area(perimetro, apotema)
 mensaje = hacer_mensaje(area)
 
 imprimir = imprimir_mensaje(mensaje)
+
 
