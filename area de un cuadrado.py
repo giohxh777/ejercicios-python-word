@@ -16,12 +16,11 @@ def imprimir_mensaje(mensaje):
     print(mensaje)
     
 #****zona codigo principal*****
-def main() :
-    lado = capturar_lado()
-    area = hacer_area(lado)
-    mensaje = hacer_mesaje(area)
-    imprimir_mensaje(mensaje)
 
-if __name__ == '__main__':
-    main()
+lado = capturar_lado()
+area = hacer_area(lado)
+mensaje = hacer_mesaje(area)
+imprimir_mensaje(mensaje)
+
+
     
