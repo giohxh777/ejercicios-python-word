@@ -25,13 +25,12 @@ def imprimir_mensaje(mensaje):
 
 
 #*******codigo principal********
-def main():
-    dolares = definir_dolares()
-    tasa = definir_tasa()
-    euros = convertir_a_euros(dolares, tasa)
-    mensaje = hacer_mensaje(dolares, tasa, euros)
-    imprimir_mensaje(mensaje)
+
+dolares = definir_dolares()
+tasa = definir_tasa()
+euros = convertir_a_euros(dolares, tasa)
+mensaje = hacer_mensaje(dolares, tasa, euros)
+imprimir_mensaje(mensaje)
 
 
-if __name__ == '__main__':
-    main()
+
