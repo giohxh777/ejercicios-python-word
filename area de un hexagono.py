@@ -1,6 +1,6 @@
 #******area de un hexagono ******
 #*******zona de funciones ********
-def capturar_base ():
+def capturar_parimetro ():
     perimetro = int(input("digite el valor de la perimetro: "))
     return perimetro
 
@@ -28,3 +28,4 @@ area = hacer_area(perimetro, apotema)
 mensaje = hacer_mensaje(area)
 
 imprimir = imprimir_mensaje(mensaje)
+
