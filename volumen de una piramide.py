@@ -26,13 +26,10 @@ def imprimir_mensaje(mensaje):
     
 #****zona codigo principal*****
 
-def main():
-    longitud = capturar_longitud()
-    ancho = capturar_ancho()
-    altura = capturar_altura()
-    volumen = hacer_volumen(longitud, ancho, altura)
-    mensaje = hacer_mesaje(volumen)
-    imprimir_mensaje(mensaje)
 
-if __name__ == '__main__':
-    main()
+longitud = capturar_longitud()
+ancho = capturar_ancho()
+altura = capturar_altura()
+volumen = hacer_volumen(longitud, ancho, altura)
+mensaje = hacer_mesaje(volumen)
+imprimir_mensaje(mensaje)
