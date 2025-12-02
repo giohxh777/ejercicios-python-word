@@ -30,14 +30,14 @@ def imprimir_mensaje(mensaje):
 
 
 #*******codigo principal********
-def main():
-    b1 = definir_base_mayor()
-    b2 = definir_base_menor()
-    h = definir_altura()
-    area = calcular_area(b1, b2, h)
-    mensaje = hacer_mensaje(area, b1, b2, h)
-    imprimir_mensaje(mensaje)
+
+b1 = definir_base_mayor()
+b2 = definir_base_menor()
+h = definir_altura()
+area = calcular_area(b1, b2, h)
+mensaje = hacer_mensaje(area, b1, b2, h)
+imprimir_mensaje(mensaje)
 
 
-if __name__ == '__main__':
-    main()
+
+
