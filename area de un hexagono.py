@@ -1,4 +1,4 @@
-#******area de un paralelogramo ******
+#******area de un hexagono ******
 #*******zona de funciones ********
 def capturar_base ():
     perimetro = int(input("digite el valor de la perimetro: "))
@@ -26,4 +26,5 @@ perimetro = capturar_base()
 apotema = capturar_apotema()
 area = hacer_area(perimetro, apotema)
 mensaje = hacer_mensaje(area)
+
 imprimir = imprimir_mensaje(mensaje)
