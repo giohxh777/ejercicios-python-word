@@ -17,12 +17,10 @@ def imprimir_mensaje(mensaje):
     print(mensaje)
     
 #*******codigo principal********
-def main():
-    radio = definir_radio()
-    area = definir_area(radio)
-    mensaje = hacer_mensaje(area)
-    imprimir_mensaje(mensaje)
+
+radio = definir_radio()
+area = definir_area(radio)
+mensaje = hacer_mensaje(area)
+imprimir_mensaje(mensaje)
 
 
-if __name__ == '__main__':
-    main()
