@@ -17,10 +17,9 @@ def imprimir_mensaje(mensaje):
     print(mensaje)
 
 #****zona codigo principal*****
-def main():
-    km = capturar_km()
-    conversion = hacer_convercion(km)
-    mensaje = hacer_mesaje(km, conversion)
-    imprimir_mensaje(mensaje)
-if __name__ == '__main__':
-    main()
+
+km = capturar_km()
+conversion = hacer_convercion(km)
+mensaje = hacer_mesaje(km, conversion)
+imprimir_mensaje(mensaje)
+
