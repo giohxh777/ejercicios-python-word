@@ -18,12 +18,10 @@ def imprimir_mensaje(mensaje):
 
 
 #*******codigo principal********
-def main():
-    celsius = definir_celsius()
-    fahrenheit = convertir_a_fahrenheit(celsius)
-    mensaje = hacer_mensaje(celsius, fahrenheit)
-    imprimir_mensaje(mensaje)
+
+celsius = definir_celsius()
+fahrenheit = convertir_a_fahrenheit(celsius)
+mensaje = hacer_mensaje(celsius, fahrenheit)
+imprimir_mensaje(mensaje)
 
 
-if __name__ == '__main__':
-    main()
