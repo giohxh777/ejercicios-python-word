@@ -22,13 +22,12 @@ def imprimir_mensaje(mensaje):
 
 
 #*******codigo principal********
-def main():
-    radio = definir_radio()
-    altura = definir_altura()
-    volumen = definir_volumen(radio, altura)
-    mensaje = hacer_mensaje(volumen)
-    imprimir_mensaje(mensaje)
+
+radio = definir_radio()
+altura = definir_altura()
+volumen = definir_volumen(radio, altura)
+mensaje = hacer_mensaje(volumen)
+imprimir_mensaje(mensaje)
 
 
-if __name__ == '__main__':
-    main()
+
